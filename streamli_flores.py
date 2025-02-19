@@ -36,7 +36,7 @@ if page == "Inicio":
 elif page == "Prediccion":
     st.title("Bienvenido a la Prediccion")
     st.write("Esta es la segunda página de tu aplicación.")
-    labels = np.load("labels.npy")
+    
     
     with st.form(key='flores-pred-form'):
         
